@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp">
+
+        <ImageView
+            android:id="@+id/img_item_photo"
+            android:layout_width="175dp"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/git"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="16dp"
+                android:gravity="center"
+                android:text="@string/tv_user"
+                android:textSize="15sp"
+                android:fontFamily="@font/comic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/img_item_photo"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/tv_html"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="0dp"
+                android:fontFamily="@font/comicbd"
+                android:textSize="10sp"
+                android:text="@string/html"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+<!--            <TextView-->
+<!--                android:id="@+id/item_release"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="16dp"-->
+<!--                android:layout_marginEnd="16dp"-->
+<!--                android:layout_marginBottom="32dp"-->
+<!--                android:layout_marginTop="3dp"-->
+<!--                android:gravity="center"-->
+<!--                android:text="@string/release_date"-->
+<!--                android:textSize="18sp"-->
+<!--                android:fontFamily="@font/comic"-->
+<!--                app:layout_constraintBottom_toBottomOf="@+id/item_title"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintStart_toEndOf="@+id/img_item_photo" />-->
+
+        </LinearLayout>
+    </RelativeLayout>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="#FFFFFF"-->
+<!--        android:gravity="center_vertical"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:padding="12dp">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/iv_user"-->
+<!--            android:layout_width="60dp"-->
+<!--            android:layout_height="60dp"-->
+<!--            android:background="#16000000"-->
+<!--            android:contentDescription="TODO" />-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:orientation="vertical">-->
+
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_user"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/tv_user"-->
+<!--                android:textColor="#212121"-->
+<!--                android:fontFamily="@font/comicz"-->
+<!--                android:textSize="15sp"-->
+<!--                tools:ignore="HardcodedText" />-->
+
+<!--            <TextView-->
+<!--                android:text="@string/tv_bio"-->
+<!--                android:id="@+id/tv_bio"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:fontFamily="@font/comic"-->
+<!--                android:layout_marginTop="12dp"-->
+<!--                android:textColor="#727272"-->
+<!--                android:textSize="14sp" />-->
+
+<!--        </LinearLayout>-->
+<!--    </LinearLayout>-->
+    
+<!--    <de.hdodenhof.circleimageview.CircleImageView-->
+<!--        android:layout_width="70dp"-->
+<!--        android:layout_height="70dp"-->
+<!--        android:id="@+id/iv_user"-->
+<!--        android:layout_marginEnd="16dp"-->
+<!--        android:src="@drawable/git"/>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerVertical="true"-->
+<!--        android:layout_toEndOf="@id/iv_user"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="8dp"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_username"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:ellipsize="end"-->
+<!--                android:fontFamily="@font/comicbd"-->
+<!--                android:textColor="@android:color/black"-->
+<!--                android:textSize="16sp"-->
+<!--                android:textStyle="bold"-->
+<!--                tools:text="@string/tv_user" />-->
+<!--        </LinearLayout>-->
+
+<!--    </LinearLayout>-->
+</androidx.cardview.widget.CardView>

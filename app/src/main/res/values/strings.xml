@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">ssbbmm5</string>
+    <string name="title_home">Home</string>
+    <string name="title_fav">Favorite</string>
+    <string name="title_about">About</string>
+    <string name="localize">Change Language Setting</string>
+    <string name="notification_setting">Change Notification</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Insert Here</string>
+    <string name="not_found">Not Found</string>
+    <string name="daily_reminder">Daily Reminder</string>
+    <string name="summary_daily_reminder">Your Reminder Every Morning at 9 a.m</string>
+    <string name="git">Github User Search</string>
+    <string name="finalsub">Final Submission</string>
+    <string name="schlrshp">Scholarship By :</string>
+    <string name="dcd">Dicoding</string>
+    <string name="bkrf">Bekraf</string>
+    <string name="gt">Github</string>
+    <string name="bio">Bio</string>
+    <string name="name">Name</string>
+    <string name="avatar">Avatar</string>
+    <string name="html">Email</string>
+    <string name="dummy_desc">Lorem ipsum sit amet dulur</string>
+    <string name="followers">Followers</string>
+    <string name="dummy_foll">90</string>
+    <string name="following">Following</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="daily_title">Github Search</string>
+    <string name="daily_desc">Let\'s Find Popular User in Here </string>
+    <string name="favorite">Favorite</string>
+    <string name="success">Success Added User</string>
+    <string name="failed">Failed Added User</string>
+    <string name="poster_user">Poster User</string>
+    <string name="tv_user">Username</string>
+    <string name="detail">Detail</string>
+    <string name="tv_bio">Bio</string>
+    <string name="iv_fav_poster">Fav Poster</string>
+    <string name="remove">Remove</string>
+    <string name="add_item_to_favorite_success">Add User Success</string>
+    <string name="remove_item_from_favorite_success">Remove User Success</string>
+    <string name="username">Username</string>
+    <string name="user">Name</string>
+</resources>
